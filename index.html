@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript" src="dist/paper.js"></script>
+<script type="text/javascript" src ='draw.js'></script>
+<link rel="stylesheet" type="text/css" href="styles.css">
+<title>ArtBoard</title>
+</head>
+<body class="artboard">
+	<div class="container">
+		<div class="title">
+		<h3> Pick a color from the left and draw on the canvas!</h3>
+		<p>Probably the best drawing tool in the world*</p>
+	</div>
+	<div class="workspace">
+	<div class="colors">
+    <ul><h2>Pencil</h2>
+
+<li><a href="javascript:bluePen.activate();"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/110296/Blue-Color-Box.png"></a></li>
+<li><a href="javascript:redPen.activate();"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/110296/Red-Color.png"></a></li>
+    <li><a href="javascript:greenPen.activate();"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/110296/Green-Light.png"></a></li>
+     <li><a href="javascript:blackPen.activate();"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/110296/Black-.png"></a></li>
+     <li><a href="javascript:yellowPen.activate();"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/110296/Yellow.png"></a></li>
+     <li><a href="javascript:orangePen.activate();"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/110296/Orange.png"></a></li>
+ </ul>
+ </div>
+ <div class="colors">
+    <ul><h2>Clouds</h2>
+<li><a href="javascript:blackCloud.activate();"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/110296/Black-.png"></a></li>
+    <li><a href="javascript:blueCloud.activate();"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/110296/Pink.png"></a></li>
+</ul>
+</div>
+  
+	
+
+<canvas id='myCanvas' height="500" width="1000"></canvas>
+<div class="colors">
+
+    <ul><h2>Eraser</h2>
+    <li><a href="javascript:circle.activate();">Eraser</a></li>
+</ul>
+    </div>
+</div>
+</div>
+<footer>
+	<p>Only Chrome supported at the moment but other browsers coming soon</p>
+<p class="disclaimer">*May or may not be the best drawing tool in the world</p>
+</footer>
+</body>
+</html>
